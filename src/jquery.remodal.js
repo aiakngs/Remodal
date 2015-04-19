@@ -14,24 +14,24 @@
 
   /**
    * Name of the plugin
-   * @const
    * @private
+   * @const
    * @type {String}
    */
   var PLUGIN_NAME = 'remodal';
 
   /**
    * Namespace for CSS and events
-   * @const
    * @private
+   * @const
    * @type {String}
    */
   var NAMESPACE = global.REMODAL_GLOBALS && global.REMODAL_GLOBALS.NAMESPACE || PLUGIN_NAME;
 
   /**
    * Default settings
-   * @const
    * @private
+   * @const
    * @type {Object}
    */
   var DEFAULTS = $.extend({
