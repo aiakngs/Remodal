@@ -26,7 +26,7 @@
    * @private
    * @type {String}
    */
-  var NAMESPACE = global.remodalGlobals && global.remodalGlobals.namespace || PLUGIN_NAME;
+  var NAMESPACE = global.REMODAL_GLOBALS && global.REMODAL_GLOBALS.NAMESPACE || PLUGIN_NAME;
 
   /**
    * Default settings
@@ -40,7 +40,7 @@
     closeOnCancel: true,
     closeOnEscape: true,
     closeOnAnyClick: true
-  }, global.remodalGlobals && global.remodalGlobals.defaults);
+  }, global.REMODAL_GLOBALS && global.REMODAL_GLOBALS.DEFAULTS);
 
   /**
    * Current modal
